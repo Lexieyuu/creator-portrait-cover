@@ -13,7 +13,7 @@ Before returning the cover, verify:
 - Any existing hands and held objects are intact and plausible.
 - Body completion occurs only in Mode C and is limited to neck, shoulders, chest, or a restrained upper torso.
 - The person is approximately 75% of frame height when feasible and remains the dominant subject.
-- No generated desk, table, laptop, notebook, keyboard, pen, mug, desk lamp, office accessory, or workspace layout was introduced unless explicitly requested.
+- No generated desk, table, laptop, notebook, keyboard, pen, mug, desk lamp, office accessory, workspace layout, or foreground horizontal surface was introduced.
 - No foreground horizontal surface, tabletop, counter, desk edge, or cluster of desktop props was introduced.
 - Environment, perspective, depth, sharpness, grain, and lighting agree.
 - There is no halo, pasted edge, floating body, mismatched color temperature, or studio/AI look.
