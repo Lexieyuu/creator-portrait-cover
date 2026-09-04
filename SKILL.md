@@ -15,7 +15,8 @@ Create a natural, close-range, creator-style portrait cover in a default 3:4 ver
    - **Mode C — Body Completion:** the source is mainly a head/face, or the visible body information is insufficient for a coherent cover.
 2. Read the relevant mode reference before generating or editing.
 3. Apply the shared protection protocol in [references/protection-protocol.md](references/protection-protocol.md), then the photographic integration rules in [references/photographic-integration.md](references/photographic-integration.md).
-4. Perform a final quality check using [references/quality-checklist.md](references/quality-checklist.md).
+4. Apply the default visual language in [references/style-natural-talking-head.md](references/style-natural-talking-head.md), unless the user requests a different style.
+5. Perform a final quality check using [references/quality-checklist.md](references/quality-checklist.md).
 
 ## Non-negotiable defaults
 
@@ -25,6 +26,7 @@ Create a natural, close-range, creator-style portrait cover in a default 3:4 ver
 - **Text-Free Canvas:** do not add any text, lettering, typography, title, slogan, caption, logo, label, handwritten note, badge, or decorative marks. Leave intentional negative space for the user to add copy later.
 - Keep the environment subordinate to the person and preserve it when the user supplied one.
 - Prioritize candid, human, close-range creator energy: natural skin texture, believable asymmetry, ordinary light, and a lived-in setting.
+- Default visual language: natural talking-head cover with a chest-up or medium close-up portrait, shallow depth of field, soft indoor light, and a calm background that supports rather than competes with the person.
 
 ## Mode routing
 

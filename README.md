@@ -26,7 +26,7 @@
 
 ## 核心协议
 
-Identity Lock、Expression/Head Pose Lock、Crop Lock、Text-Free Canvas、Body Completion、Foreground Dominance、Photographic Integration、Environment Lock、Lighting Integration，以及手部与手持物保护、活人感规则，详见 [`references/`](references/)。
+Identity Lock、Expression/Head Pose Lock、Crop Lock、Text-Free Canvas、Body Completion、Foreground Dominance、Photographic Integration、Environment Lock、Lighting Integration，以及手部与手持物保护、活人感规则，详见 [`references/`](references/)。默认视觉语言收录在 `style-natural-talking-head.md`。
 
 ## 安装
 
@@ -37,6 +37,10 @@ Identity Lock、Expression/Head Pose Lock、Crop Lock、Text-Free Canvas、Body 
 ```text
 使用 $creator-portrait-cover，把这张人物图做成 3:4 的自媒体口播封面，保留原表情、发型、服装和手持物，生成自然生活化背景；画面不要出现任何文字，我后续自己加。
 ```
+
+默认风格关键词：
+
+`自然口播感、生活化室内空间、半身中近景、人物主体突出、浅景深、背景柔焦、自然窗光、柔和漫反射、真实皮肤纹理、真实手势、轻微抓拍感、人物与环境自然融合、干净留白、无文字`
 
 ```text
 使用 $creator-portrait-cover，把人物图合成到环境图中。环境作为唯一空间基准，人物占画面约 70%–75%，不要换脸或改变人物裁切。
@@ -55,5 +59,6 @@ creator-portrait-cover/
     ├── mode-c-body-completion.md
     ├── protection-protocol.md
     ├── photographic-integration.md
-    └── quality-checklist.md
+    ├── quality-checklist.md
+    └── style-natural-talking-head.md
 ```
