@@ -8,6 +8,7 @@
 - 为已有完整人物图生成匹配的真实环境
 - 在只有头部信息时，保守补全肩颈和有限上半身
 - 保留人物本人特征，减少抠图感、美颜感、棚拍感和 AI 感
+- 输出无文字、无标题、无标语、无涂鸦，为后续自行加字预留画布
 
 ## 输入方式与三种模式
 
@@ -25,7 +26,7 @@
 
 ## 核心协议
 
-Identity Lock、Expression/Head Pose Lock、Crop Lock、Body Completion、Foreground Dominance、Photographic Integration、Environment Lock、Lighting Integration，以及手部与手持物保护、活人感规则，详见 [`references/`](references/)。
+Identity Lock、Expression/Head Pose Lock、Crop Lock、Text-Free Canvas、Body Completion、Foreground Dominance、Photographic Integration、Environment Lock、Lighting Integration，以及手部与手持物保护、活人感规则，详见 [`references/`](references/)。
 
 ## 安装
 
@@ -34,7 +35,7 @@ Identity Lock、Expression/Head Pose Lock、Crop Lock、Body Completion、Foregr
 ## 使用示例
 
 ```text
-使用 $creator-portrait-cover，把这张人物图做成 3:4 的自媒体口播封面，保留原表情、发型、服装和手持物，生成自然生活化背景。
+使用 $creator-portrait-cover，把这张人物图做成 3:4 的自媒体口播封面，保留原表情、发型、服装和手持物，生成自然生活化背景；画面不要出现任何文字，我后续自己加。
 ```
 
 ```text

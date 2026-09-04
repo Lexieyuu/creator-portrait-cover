@@ -22,6 +22,7 @@ Create a natural, close-range, creator-style portrait cover in a default 3:4 ver
 - Output aspect ratio: **3:4 vertical** unless the user specifies another ratio.
 - Foreground dominance: the person should generally occupy about **70%–75% of the frame height**, adjusted only when the source crop or composition requires it.
 - Preserve the person's identity, expression, head pose, visible body crop, hands, hand-held objects, clothing, and accessories.
+- **Text-Free Canvas:** do not add any text, lettering, typography, title, slogan, caption, logo, label, handwritten note, badge, or decorative marks. Leave intentional negative space for the user to add copy later.
 - Keep the environment subordinate to the person and preserve it when the user supplied one.
 - Prioritize candid, human, close-range creator energy: natural skin texture, believable asymmetry, ordinary light, and a lived-in setting.
 
@@ -31,4 +32,4 @@ Create a natural, close-range, creator-style portrait cover in a default 3:4 ver
 - Mode B: read [references/mode-b-automatic-environment.md](references/mode-b-automatic-environment.md).
 - Mode C: read [references/mode-c-body-completion.md](references/mode-c-body-completion.md).
 
-Do not invent extra body areas merely to make the composition easier. If the source already has a clear crop, treat that crop as locked. Body generation is permitted only in Mode C and only for a conservative neck, shoulders, chest, or limited upper torso.
+Do not invent extra body areas merely to make the composition easier. If the source already has a clear crop, treat that crop as locked. Body generation is permitted only in Mode C and only for a conservative neck, shoulders, chest, or limited upper torso. If the source face and the generated result disagree, the source face always wins over compositional polish or a more conventionally attractive expression.

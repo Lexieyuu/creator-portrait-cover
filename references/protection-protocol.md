@@ -6,11 +6,21 @@ Treat the source face as the identity anchor. Preserve face shape, facial struct
 
 ## Expression / Head Pose Lock
 
-Keep the source expression, gaze, head tilt, and camera-facing direction. Do not turn a candid expression into a smile, talking pose, or fashion pose unless the user explicitly requests it.
+Keep the source expression, gaze, head tilt, mouth shape, eye openness, eyebrow position, cheek tension, and camera-facing direction. Treat the original face crop as the highest-fidelity region of the image and preserve it as closely as possible. Do not turn a neutral look into a smile, pout, talking pose, softened gaze, or fashion pose. Do not alter the emotional temperature merely to make the composite feel friendlier or more polished. If the generated body or lighting conflicts with the face, correct the body/lighting instead of changing the face.
+
+## Text-Free Canvas
+
+The final image must contain no newly generated text or graphic copy. Do not add titles, slogans, captions, subtitles, labels, logos, watermarks, handwritten words, alphabetic characters, Chinese characters, numbers, icons pretending to be copy, brush lettering, underlines, arrows, stickers, or decorative text-like marks. Do not place typography in the foreground, background, on props, on walls, or over empty space. Preserve intentional clean negative space so the user can add text later.
+
+When a supplied environment already contains incidental writing, preserve it only when Environment Lock requires faithful preservation; otherwise remove or simplify it when the user asks for a completely text-free canvas. Never invent new readable or pseudo-readable copy to make the scene feel designed.
 
 ## Crop Lock
 
 When the source shows a defined body range, preserve that range and its shoulder boundaries, occlusion relationships, visible hands, clothing, and held objects. Whole-person scaling and repositioning are allowed; adding missing internal body regions is not.
+
+## Environment Lock
+
+In Mode A, the supplied environment is the spatial source of truth. Preserve its room geometry, major furniture, windows, doors, artwork, color relationships, and overall composition unless the user asks for a change. Improve integration through scale, perspective, occlusion, and light—not by redesigning the scene or covering it with graphic copy.
 
 ## Hands and held objects
 
