@@ -6,7 +6,7 @@ Use when both a person image and an environment image are provided.
 
 - The environment image is the sole spatial and compositional baseline: do not redesign it or casually recrop it.
 - The person image controls identity, expression, head pose, posture, visible body range, clothing, hands, and held objects.
-- Preserve the person's crop; scale and move the complete person layer as needed, without expanding the body internally.
+- Treat the uploaded person as a finished foreground layer. Preserve the person's crop, face, expression, hair, clothes, pose, hands, and silhouette; scale and move the complete person layer as needed, without expanding or redrawing the body internally.
 - Match camera perspective, apparent lens distance, scale, depth of field, edge occlusion, contact with surfaces, and environmental depth.
 - Apply lighting integration: direction, softness, color temperature, contrast, shadow density, and reflected color must agree with the environment.
 - Keep the person near and conversational, with foreground dominance around 75% of frame height when compatible with the source.

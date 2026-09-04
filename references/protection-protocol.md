@@ -1,5 +1,9 @@
 # Protection Protocol
 
+## Source Person Preservation
+
+The uploaded person is the source of truth. Treat the full visible person—face, hair, clothing, pose, hands, accessories, and crop—as an almost immutable foreground layer. The preferred operation is to isolate the existing person, move and scale that complete layer into the environment, then integrate its edges, perspective, depth, color, and light. Do not regenerate a replacement person, redraw facial features, change the body silhouette, alter clothing, or invent a more polished pose. Any change to the person must be limited to the minimum technical adjustment needed for believable integration.
+
 ## Identity Lock
 
 Treat the source face as the identity anchor. Preserve face shape, facial structure, eyebrows, eyes, nose, mouth, age impression, hairstyle, hair color, hair length, hair direction, head angle, and orientation. Never replace the face, change age, beautify into a different person, or invent accessories.

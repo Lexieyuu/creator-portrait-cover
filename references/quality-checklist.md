@@ -4,6 +4,7 @@ Before returning the cover, verify:
 
 - The output is 3:4 unless another ratio was requested.
 - The person remains recognizable as the source person.
+- The uploaded person looks like the same untouched person moved into the scene; no unnecessary face, body, clothing, pose, or hair changes were introduced.
 - Expression, gaze, head angle, and overall pose are preserved.
 - Mouth shape, eye openness, eyebrow position, and emotional tone match the source; the face was not made happier, softer, younger, or more posed.
 - The canvas contains no newly generated text, lettering, logo, slogan, caption, watermark, label, handwriting, arrow, underline, sticker, or text-like decoration.

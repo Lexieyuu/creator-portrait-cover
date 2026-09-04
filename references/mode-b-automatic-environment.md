@@ -4,8 +4,8 @@ Use when only a person image is supplied and it already contains enough head, sh
 
 ## Rules
 
-- Preserve the source person's identity, expression, head pose, body crop, pose, clothing, hands, and held objects.
-- Treat the source as a finished portrait layer. Do not extend missing arms, hands, waist, legs, or unseen anatomy.
+- Preserve the source person's identity, expression, head pose, body crop, pose, clothing, hands, and held objects exactly as supplied.
+- Treat the source as a finished portrait layer, not a prompt for generating a new person. Move, scale, and integrate the complete person; do not extend missing arms, hands, waist, legs, or unseen anatomy.
 - Generate a real-feeling, lived-in environment that supports the person without turning the image into a workspace: quiet home interior, wall, window, shelf, plant, artwork, studio corner without a desk, street, café, or another context appropriate to the request.
 - Do not introduce desks, tables, laptops, notebooks, keyboards, pens, mugs, desk lamps, or office accessories unless they are already in the supplied image or the user explicitly requests them.
 - Keep the environment visually subordinate, with believable depth and natural imperfections.
