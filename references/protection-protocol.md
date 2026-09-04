@@ -32,4 +32,4 @@ Only Mode C may add body content. Extend conservatively from the neck and should
 
 ## Foreground Dominance
 
-Keep the person visually dominant, usually 70%–75% of frame height. Leave enough breathing room for a believable environment while preventing the background from becoming the subject.
+Keep the person visually dominant, usually about 75% of frame height. Leave enough breathing room for a believable environment while preventing the background from becoming the subject.
