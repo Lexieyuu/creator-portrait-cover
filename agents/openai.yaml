@@ -1,6 +1,6 @@
 interface:
   display_name: "Creator Portrait Cover（自媒体活人感封面）"
   short_description: "Create lifelike 3:4 creator portrait covers"
-  default_prompt: "Use $creator-portrait-cover to create a lifelike 3:4 natural talking-head cover with a lived-in indoor setting, soft background, preserved identity and expression, and no text."
+  default_prompt: "Use $creator-portrait-cover to create a lifelike 3:4 natural talking-head cover with a real person occupying about 75% of the frame, naturally supported by a lived-in background, no desktop scene, and no text."
 policy:
   allow_implicit_invocation: true

@@ -10,7 +10,8 @@ Before returning the cover, verify:
 - The visible body crop is unchanged in Mode A/B.
 - Any existing hands and held objects are intact and plausible.
 - Body completion occurs only in Mode C and is limited to neck, shoulders, chest, or a restrained upper torso.
-- The person is approximately 70%–75% of frame height when feasible and remains the dominant subject.
+- The person is approximately 75% of frame height when feasible and remains the dominant subject.
+- No generated desk, table, laptop, notebook, keyboard, pen, mug, desk lamp, office accessory, or workspace layout was introduced unless explicitly requested.
 - Environment, perspective, depth, sharpness, grain, and lighting agree.
 - There is no halo, pasted edge, floating body, mismatched color temperature, or studio/AI look.
 - The image feels candid, natural, and suitable for a creator's cover.

@@ -4,9 +4,9 @@ Use this visual language by default when the user does not request a different a
 
 ## Style recipe
 
-- **Framing:** 3:4 vertical; chest-up, medium close-up, or relaxed half-body framing; the person usually occupies about 60%–75% of the frame height.
+- **Framing:** 3:4 vertical; chest-up, medium close-up, or relaxed half-body framing; the person usually occupies about 75% of the frame height.
 - **Presence:** direct-to-camera or slightly off-camera gaze, an authentic speaking moment, restrained and believable hand gestures when hands are present in the source.
-- **Environment:** a lived-in indoor setting such as a home office, studio corner, desk area, shelf, plant, artwork, or soft architectural background. Use a few recognizable environmental cues, not a busy set.
+- **Environment:** a lived-in indoor setting such as a quiet room, home interior, shelf, plant, artwork, window, wall, or soft architectural background. Use a few recognizable environmental cues, not a busy set. Do not default to a desk, tabletop, laptop, notebook, mug, keyboard, or office-workspace arrangement.
 - **Depth:** person sharp and readable; background softly defocused with shallow depth of field while retaining enough detail to communicate place.
 - **Light:** soft window light or broad indoor light, gentle falloff, natural skin tone, subtle ambient fill, and consistent direction/color temperature across person and background.
 - **Color:** warm neutral or restrained muted palette; let the face and clothing carry the visual emphasis rather than using aggressive saturation.
@@ -16,9 +16,9 @@ Use this visual language by default when the user does not request a different a
 ## Reusable prompt block
 
 ```text
-Natural self-media talking-head cover, lifelike creator portrait in a lived-in indoor setting, chest-up or medium close-up framing, person visually dominant at approximately 60%–75% of frame height, sharp readable face, softly defocused background with recognizable but subordinate room details, soft window light or broad indoor light, gentle natural shadows, consistent perspective and color temperature, realistic skin texture, believable hair and clothing detail, authentic speaking moment, restrained natural hand gesture only if present in the source, warm neutral muted palette, subtle candid photographic feel, clean negative space for later copy, 3:4 vertical composition, completely text-free.
+Natural self-media talking-head cover, lifelike real person naturally held by a lived-in indoor environment, chest-up or medium close-up framing, person visually dominant at approximately 75% of frame height, sharp readable face, softly defocused background with recognizable but subordinate room details, quiet room with wall, window, shelf, plant, artwork, or soft architectural elements, no desk or tabletop scene, no laptop or office props, soft window light or broad indoor light, gentle natural shadows, consistent perspective and color temperature, realistic skin texture, believable hair and clothing detail, authentic speaking moment, restrained natural hand gesture only if present in the source, warm neutral muted palette, subtle candid photographic feel, clean negative space for later copy, 3:4 vertical composition, completely text-free.
 ```
 
 ## Style guardrails
 
-Do not turn the result into a studio headshot, fashion editorial, beauty retouch, cinematic poster, glossy advertisement, or overly designed thumbnail. Do not add typography, emojis, badges, stickers, arrows, or graphic overlays. Preserve the source person's exact identity, expression, eye direction, mouth shape, head angle, and emotional tone; the naturalness must come from lighting, depth, composition, and integration—not from changing the face.
+Do not turn the result into a studio headshot, fashion editorial, beauty retouch, cinematic poster, glossy advertisement, desktop productivity scene, or overly designed thumbnail. Do not add a desk, table, laptop, notebook, keyboard, mug, desk lamp, office accessories, typography, emojis, badges, stickers, arrows, or graphic overlays. Preserve the source person's exact identity, expression, eye direction, mouth shape, head angle, and emotional tone; the naturalness must come from lighting, depth, composition, and integration—not from changing the face.

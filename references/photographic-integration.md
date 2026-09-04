@@ -16,4 +16,4 @@ Favor natural skin texture, small asymmetries, ordinary lived-in spaces, modest 
 
 Use 3:4 vertical by default. Keep the face readable and the person dominant; reserve enough environmental context to make the image feel situated. Do not cover important facial features or hands with decorative text or graphics unless requested.
 
-The default composition is a clean, text-free image layer. Use negative space, furniture, walls, windows, or quiet areas of the environment as future copy space; never fill that space with invented typography or graphic decoration.
+The default composition is a clean, text-free image layer. Use negative space, walls, windows, shelves, plants, artwork, or quiet architectural areas as future copy space; never fill that space with invented typography, graphic decoration, or a desktop arrangement. Furniture should remain background context, not a foreground table or desk.
