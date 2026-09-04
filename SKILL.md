@@ -36,4 +36,8 @@ Create a natural, close-range, creator-style portrait cover in a default 3:4 ver
 - Mode B: read [references/mode-b-automatic-environment.md](references/mode-b-automatic-environment.md).
 - Mode C: read [references/mode-c-body-completion.md](references/mode-c-body-completion.md).
 
+## Rule precedence
+
+When instructions appear to compete, apply them in this order: (1) preserve the uploaded person exactly, (2) honor explicit user cleanup requests such as no text or no desktop, (3) preserve and integrate the supplied environment, (4) apply the default visual style. Environment changes should be limited to the requested cleanup; never solve an environment problem by regenerating or altering the person.
+
 Do not invent extra body areas merely to make the composition easier. If the source already has a clear crop, treat that crop as locked. Body generation is permitted only in Mode C and only for a conservative neck, shoulders, chest, or limited upper torso when the source is genuinely insufficient. If the source face and the generated result disagree, the source face always wins over compositional polish or a more conventionally attractive expression. When the user requests a desk-free scene, that preference overrides generic workspace suggestions and applies to both automatic background generation and environment cleanup.

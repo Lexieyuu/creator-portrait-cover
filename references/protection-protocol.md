@@ -14,9 +14,9 @@ Keep the source expression, gaze, head tilt, mouth shape, eye openness, eyebrow 
 
 ## Text-Free Canvas
 
-The final image must contain no newly generated text or graphic copy. Do not add titles, slogans, captions, subtitles, labels, logos, watermarks, handwritten words, alphabetic characters, Chinese characters, numbers, icons pretending to be copy, brush lettering, underlines, arrows, stickers, or decorative text-like marks. Do not place typography in the foreground, background, on props, on walls, or over empty space. Preserve intentional clean negative space so the user can add text later.
+The final image must contain no text or graphic copy unless the user explicitly asks to preserve specific source text. Do not add titles, slogans, captions, subtitles, labels, logos, watermarks, handwritten words, alphabetic characters, Chinese characters, numbers, icons pretending to be copy, brush lettering, underlines, arrows, stickers, or decorative text-like marks. Do not place typography in the foreground, background, on props, on walls, or over empty space. Remove incidental source writing when possible and preserve intentional clean negative space so the user can add text later.
 
-When a supplied environment already contains incidental writing, preserve it only when Environment Lock requires faithful preservation; otherwise remove or simplify it when the user asks for a completely text-free canvas. Never invent new readable or pseudo-readable copy to make the scene feel designed.
+Text-Free Canvas takes precedence over Environment Lock for incidental writing: if the user wants a clean canvas, erase, crop, blur, or simplify source text while preserving the surrounding environment. Never invent new readable or pseudo-readable copy to make the scene feel designed.
 
 ## Crop Lock
 
@@ -24,7 +24,7 @@ When the source shows a defined body range, preserve that range and its shoulder
 
 ## Environment Lock
 
-In Mode A, the supplied environment is the spatial source of truth. Preserve its room geometry, major furniture, windows, doors, artwork, color relationships, and overall composition unless the user asks for a change. Improve integration through scale, perspective, occlusion, and light—not by redesigning the scene or covering it with graphic copy.
+In Mode A, the supplied environment is the spatial source of truth. Preserve its room geometry, windows, doors, non-text visual elements, color relationships, and overall composition unless the user asks for a change. The Desk-Free Scene rule may remove or replace desks, tables, laptops, notebooks, keyboards, and other workspace elements; the Text-Free Canvas rule may remove incidental writing. Improve integration through scale, perspective, occlusion, and light—not by redesigning the scene or covering it with graphic copy.
 
 ## Hands and held objects
 
