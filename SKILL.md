@@ -5,7 +5,7 @@ description: "Create lifelike 3:4 creator portrait covers from people and/or env
 
 # Creator Portrait Cover
 
-Create a natural, close-range, creator-style portrait cover in a default 3:4 vertical format. The person is the primary subject and should feel photographed in a real environment—not pasted in, beautified into another person, or rendered as a studio/AI portrait.
+Create a natural, close-range, creator-style portrait cover in a default 3:4 vertical format. Use an image-editing/compositing workflow: protect the uploaded person and edit the environment around them. The person is the primary subject and should feel photographed in a real environment—not pasted in, beautified into another person, or regenerated as a studio/AI portrait.
 
 ## Operating workflow
 
@@ -21,9 +21,9 @@ Create a natural, close-range, creator-style portrait cover in a default 3:4 ver
 ## Non-negotiable defaults
 
 - Output aspect ratio: **3:4 vertical** unless the user specifies another ratio.
-- Foreground dominance: the person should generally occupy about **75% of the frame height**, adjusted only when the source crop or composition requires it.
+- Foreground dominance: the person should generally occupy about **75% of the frame height**. This is an approximate composition target only; never crop, stretch, reshape, or regenerate the person to force the percentage.
 - Preserve the person's identity, expression, head pose, visible body crop, hands, hand-held objects, clothing, and accessories.
-- **Source Person Preservation:** treat the uploaded person as an almost immutable foreground layer, not as a loose reference for regenerating a new person. Prefer moving the person into the environment and integrating the edges, perspective, scale, depth, and light; do not redraw the face or body merely to improve the composition.
+- **Source Person Preservation:** treat the uploaded person as a protected, immutable foreground layer, not as a loose reference. Move the exact uploaded person into the environment and integrate only its edges, perspective, scale, depth, color, and light. Never redraw, inpaint, beautify, reconstruct, or regenerate the face or body.
 - **Text-Free Canvas:** do not add any text, lettering, typography, title, slogan, caption, logo, label, handwritten note, badge, or decorative marks. Leave intentional negative space for the user to add copy later.
 - Keep the environment subordinate to the person and preserve it when the user supplied one.
 - **Desk-Free Scene:** do not add desks, tables, laptops, notebooks, keyboards, pens, mugs, desk lamps, office accessories, or workspace layouts as default props. The environment should support the person without becoming a desktop scene.
@@ -38,6 +38,6 @@ Create a natural, close-range, creator-style portrait cover in a default 3:4 ver
 
 ## Rule precedence
 
-When instructions appear to compete, apply them in this order: (1) preserve the uploaded person exactly, (2) honor explicit user cleanup requests such as no text or no desktop, (3) preserve and integrate the supplied environment, (4) apply the default visual style. Environment changes should be limited to the requested cleanup; never solve an environment problem by regenerating or altering the person.
+When instructions appear to compete, apply them in this order: (1) preserve the uploaded person exactly, (2) honor explicit user cleanup requests such as no text or no desktop, (3) preserve and integrate the supplied environment, (4) apply the default visual style. Environment changes should be limited to the requested cleanup; never solve an environment problem by regenerating or altering the person. The 75% framing target is always subordinate to source-person preservation.
 
 Do not invent extra body areas merely to make the composition easier. If the source already has a clear crop, treat that crop as locked. Body generation is permitted only in Mode C and only for a conservative neck, shoulders, chest, or limited upper torso when the source is genuinely insufficient. If the source face and the generated result disagree, the source face always wins over compositional polish or a more conventionally attractive expression. When the user requests a desk-free scene, that preference overrides generic workspace suggestions and applies to both automatic background generation and environment cleanup.

@@ -19,6 +19,16 @@ Use this visual language by default when the user does not request a different a
 Natural self-media talking-head cover, lifelike real person naturally held by a lived-in indoor environment, chest-up or medium close-up framing, person visually dominant at approximately 75% of frame height, sharp readable face, softly defocused background with recognizable but subordinate room details, quiet room with wall, window, shelf, plant, artwork, or soft architectural elements, no desk or tabletop scene, no laptop or office props, soft window light or broad indoor light, gentle natural shadows, consistent perspective and color temperature, realistic skin texture, believable hair and clothing detail, authentic speaking moment, restrained natural hand gesture only if present in the source, warm neutral muted palette, subtle candid photographic feel, clean negative space for later copy, 3:4 vertical composition, completely text-free.
 ```
 
+## Strong negative prompt
+
+Use this as a negative prompt when the image tool supports one. If it does not, append the same constraints to the main prompt:
+
+```text
+regenerated person, different face, face swap, altered expression, changed eyes, changed mouth, changed hairstyle, changed clothing, changed pose, changed body shape, beautified face, plastic skin, extra anatomy, new hands, new fingers, new arms, reconstructed body, inpainted person, redrawn person, studio portrait, desk, table, tabletop, counter, desktop, laptop, notebook, keyboard, pen, mug, desk lamp, office supplies, workspace, foreground surface, text, typography, title, slogan, caption, logo, watermark, sticker, emoji, arrow, graphic overlay
+```
+
+When compositing, use a protected mask over the entire uploaded person and generate or edit only the environment/background region. If the tool cannot protect a mask, prioritize source fidelity over background polish and do not attempt a full-image regeneration.
+
 ## Style guardrails
 
 Do not turn the result into a studio headshot, fashion editorial, beauty retouch, cinematic poster, glossy advertisement, desktop productivity scene, or overly designed thumbnail. Do not add a desk, table, laptop, notebook, keyboard, mug, desk lamp, office accessories, typography, emojis, badges, stickers, arrows, or graphic overlays. Preserve the source person's exact identity, expression, eye direction, mouth shape, head angle, and emotional tone; the naturalness must come from lighting, depth, composition, and integration—not from changing the face.

@@ -2,7 +2,7 @@
 
 ## Source Person Preservation
 
-The uploaded person is the source of truth. Treat the full visible person—face, hair, clothing, pose, hands, accessories, and crop—as an almost immutable foreground layer. The preferred operation is to isolate the existing person, move and scale that complete layer into the environment, then integrate its edges, perspective, depth, color, and light. Do not regenerate a replacement person, redraw facial features, change the body silhouette, alter clothing, or invent a more polished pose. Any change to the person must be limited to the minimum technical adjustment needed for believable integration.
+The uploaded person is the source of truth and must be protected. Treat the full visible person—face, hair, clothing, pose, hands, accessories, and crop—as an immutable foreground layer. The preferred operation is to isolate the exact existing person, move and scale that complete layer into the environment, then integrate only its edges, perspective, depth, color, and light. Do not regenerate, redraw, inpaint, reconstruct, beautify, or replace any part of the person. Never change the body silhouette, clothing, expression, or pose to improve composition. Only technical integration adjustments are allowed, and they must not alter the person's identity or appearance.
 
 ## Identity Lock
 
@@ -24,7 +24,7 @@ When the source shows a defined body range, preserve that range and its shoulder
 
 ## Environment Lock
 
-In Mode A, the supplied environment is the spatial source of truth. Preserve its room geometry, windows, doors, non-text visual elements, color relationships, and overall composition unless the user asks for a change. The Desk-Free Scene rule may remove or replace desks, tables, laptops, notebooks, keyboards, and other workspace elements; the Text-Free Canvas rule may remove incidental writing. Improve integration through scale, perspective, occlusion, and light—not by redesigning the scene or covering it with graphic copy.
+In Mode A, the supplied environment is the spatial source of truth. Preserve its room geometry, windows, doors, non-text visual elements, color relationships, and overall composition unless the user asks for a change. The Desk-Free Scene rule may remove or replace desks, tables, laptops, notebooks, keyboards, and other workspace elements; the Text-Free Canvas rule may remove incidental writing. Never introduce a new foreground horizontal surface or desktop arrangement. Improve integration through scale, perspective, occlusion, and light—not by redesigning the scene or altering the person.
 
 ## Hands and held objects
 
